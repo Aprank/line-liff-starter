@@ -5,5 +5,5 @@ window.onload = function (e) {
 };
 
 function initializeApp(data) {
-    window.location.replace('line://ti/p/@mwr2507g');
+    liff.openWindow({url: 'line://ti/p/@mwr2507g'});
 }
